@@ -20,6 +20,7 @@ public class Music {
 	   private String title;
 	   private String singer;
 
+	   
 	   public Music(String title, String singer) {
 	      super();
 	      this.title = title;

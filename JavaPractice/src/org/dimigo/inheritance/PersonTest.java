@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.dimigo.ingeritance;
+package org.dimigo.inheritance;
 
 /**
  * <pre>
@@ -20,9 +20,9 @@ public class PersonTest {
 	
 	public static void main(String[] args) {
 		Person p = new Person("Tom");
-		Korean k = new Korean("한국사람 홍길동");
-		Japanese j = new Japanese("일본사람 다나카");
-		Chinese c = new Chinese("중국사람 왕밍");
+		Korean k = new Korean("홍길동");
+		Japanese j = new Japanese("다나카");
+		Chinese c = new Chinese("왕밍");
 		
 		System.out.println(p);
 		System.out.println(k);

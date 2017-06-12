@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.dimigo.ingeritance;
+package org.dimigo.inheritance;
 
 /**
  * <pre>
@@ -27,6 +27,10 @@ public class Korean extends Person{
 	
 	public void sayBye() {
 		System.out.println("안녕히 계세요");
+	}
+	
+	public String toString() {
+		return "저는 " + "한국사람 " + getName() + "입니다.";
 	}
 
 }

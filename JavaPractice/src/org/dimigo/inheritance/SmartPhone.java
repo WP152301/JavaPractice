@@ -46,8 +46,8 @@ public class SmartPhone {
 		if(phone instanceof Galaxy) {
 			((Galaxy)phone).useWireless();
 		}
-		else if(phone instanceof Iphone) {
-			((Iphone) phone).useAirDrop();
+		else if(phone instanceof IPhone) {
+			((IPhone) phone).useAirDrop();
 		}
 		
 	}
