@@ -24,6 +24,7 @@ import java.io.Writer;
  */
 
 	public class ArakoMenu {
+		
 	    public static void main(String[] args) {
 	        try(BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 	            BufferedWriter writer = new BufferedWriter(new FileWriter("files/menu.txt"));
